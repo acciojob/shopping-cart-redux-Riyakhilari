@@ -1,13 +1,11 @@
 import React from 'react'
 
-const Navbar = () => {
+const Footer = () => {
     return (
-        <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light py-4">
-                <h3 className="text-center mx-auto">Shopping Cart</h3>
-            </nav>
-        </>
+        <div className="navbar navbar-light bg-light mt-5">
+            <h6 className="mx-auto py-2">Shopping Cart</h6>
+        </div>
     )
 }
 
-export default Navbar
+export default Footer
